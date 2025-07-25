@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/main.css">
+    <link rel="icon" href="./img/mainicon.png" type="image/x-icon">
+    <title>Rastreo de tu paquete</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="https://multivende.com/wp-content/uploads/2024/07/partners-program-houndexpress.png">
+            <section class="header__text">
+                <h1>Hound Express</h1>       
+                <h2>Tu mejor opcion para logística.</h2>             
+            </section>
+        <section class="header__links">
+        <section class="header__menu">
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="Nosotros.html">Nosotros</a>               
+                <a href="trastreo.html">Rastreo</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </section>
+    </header>
+    <form>
+        <h1 class="track_h1">Rastrea tu paquete</h1>
+        <fieldset>
+                <legend class="track_h1">Rastrea tu envio</span></legend>
+                <div class="track__fields">
+                    <label>Tipo de envio</label>
+                    <select>
+                        <option value="">--Selecciona---</option>
+                        <option value="Envio Nacional">Envio Nacional</option>
+                        <option value="Envio Internacional">Envio Internacional</option>        
+                      
+                    </select>
+
+                </div>
+                <div class="track__fields">
+                    <label for="comments">Numero de guia</label>
+                        <input type="text"placeholder="Ingresa tu numero de guia">
+                </div>
+            
+                <button class="track_btn">Rastrear</button>
+            </form> 
+        </fieldset>   
+    <fieldset>
+        <legend class="track_h1">Para preguntas o comentarios dejanos tus datos y nosotros te contactaremos en breve.</legend>
+            <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required placeholder="Ingresa tu nombre completo">
+        </div>
+        <div class="track__fields">
+            <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Ingresa tu correo eletronico">
+        </div>
+        
+        <div class="track__fields">
+            <label for="telefono">Telefono</label>
+                <input type="tel" placeholder="Ingresa tu numero telefonico">
+            
+        </div>
+        <div class="track__fields">
+            <label for="comments">Numero de guia</label>
+                <input type="text"placeholder="Ingresa tu numero de guia">
+        </div>
+        <div class="track__fields">
+            <label for="comments">Comentarios adicionales</label>
+            <textarea></textarea>
+        </div>
+        <div>
+            <button class="track_btn">Enviar</button>
+        </div>
+    </fieldset>
+</body>
+<footer>
+    <small>Copyright &copy;2025 Hound Express. Todos los derechos reservados. </small>
+</footer>
+</html>

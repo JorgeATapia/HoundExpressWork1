@@ -1,0 +1,32 @@
+@mixin mainBoxes {
+    color: aliceblue;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 10px;
+    gap: 15px;
+}
+
+@mixin blockArrange {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: $mainfontFamily;
+    gap: 15px;
+    justify-content: space-evenly;
+    padding: 20px 40px;
+}
+
+@mixin laptops{
+    @media screen and (max-width: 70rem) { @content };
+    
+}   
+
+@mixin tablets{
+    @media screen and (max-width: 60rem){ @content};       
+    
+
+}
+
+@mixin mobile{
+    @media screen and (max-width: 800px){ @content };   
+    
+}
